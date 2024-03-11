@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="registration form.css">
+ </head>
+ <body>
+    <div class="container">
+   
+        <fieldset>
+            <legend>Registration Details</legend>
+            <form action="">
+                <div class="form_container">
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" style="background-color:  white;"><br><br>
+    
+            <label for="institute">Institute:</label>
+            <input type="text" id="institute" name="institute" style="background-color:white;"><br><br>
+    
+            <label for="branch">Branch:</label>
+            
+             <select id="branch" name="branch"style="background-color:  white;"style="color:black;">  
+                <option value="" disabled selected>--select--</option>
+              
+                <option value="cs">Computer Science</option>
+                <option value="ee">Electrical Engineering</option>
+                <option value="ece">Electronic Engineering</option>
+            </select><br><br>
+    
+            Degree Status: 
+
+            <select id="branch" name="branch"style="background-color:white;">  
+                <option value="">--select--</option>
+            <input type="radio" name="status" value="pursuing" style="background-color:  white;"> Pursuing
+            <input type="radio" name="status" value="completed"> Completed<br><br>
+    
+            Average CPI:
+            <input type="number"min="0"max="10"step="1" name="cpi_status" style="background-color:  white;"> 
+            Upto <input id="new" type="number"min="0"max="10"step="1" value ="2"name="cpi_status" style="background-color:  white;"> Th Semester<br><br>
+    
+            Experience:
+            <input type="number" min="0"max="12"step="1" style="background-color:  white;"><br><br>
+    
+            Your Website Or Blog:
+            <input id="web"
+             type="text" placeholder="http://" style="background-color:white;"><br><br>
+        </div>
+    </form>
+
+        </fieldset>  
+        
+</div>
+ </body>
+ </html>
